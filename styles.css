@@ -291,7 +291,7 @@ footer p {
     }
     /* 背景に画像を設定 */
 body {
-    background-image: url('https://www.nas-club.co.jp/magazine/wp-content/uploads/2024/04/block01-30.jpg'); /* 背景画像を指定 */
+    background-image: url(); /* 背景画像を指定 */
     background-size: cover; /* 画面全体に表示 */
     background-position: center; /* 画像を中央揃え */
     background-attachment: fixed; /* スクロール時に背景を固定 */
