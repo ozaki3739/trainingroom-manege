@@ -319,7 +319,20 @@ body {
     bottom: 35%;
     transform: translateY(-40 );
 }
-   
+   /* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 5rem; /* スマホで文字サイズを小さく */
+    }
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+    header, main, footer {
+        padding: 10px; /* スマホで余白を調整 */
+    }
+}
+
     
     
 
