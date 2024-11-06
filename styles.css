@@ -340,32 +340,7 @@ body {
         transform: translate(-50%, -50%); /* 水平・垂直方向に中央配置 */
     }
 }
-/* ベース設定 */
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; /* 縦方向中央 */
-    text-align: center;
-    overflow-x: hidden; /* 横スクロールを防止 */
-}
 
-/* メインコンテナを中央に配置 */
-.container {
-    width: 90%; /* ページ全体の幅 */
-    max-width: 1200px; /* 最大幅を指定 */
-    margin: 0 auto; /* 自動で中央に配置 */
-    padding: 20px;
-}
-
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-    .background-text {
-        font-size: 5rem; /* スマホで文字サイズを調整 */
-    }
-}
 
     
     
