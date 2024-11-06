@@ -319,27 +319,30 @@ body {
     bottom: 35%;
     transform: translateY(-40 );
 }
-   /* レスポンシブデザイン */
-@media (max-width: 768px) {
-    .background-text {
-        font-size: 5rem; /* スマホで文字サイズを小さく */
-    }
-    body {
-        background-position: center;
-        background-size: cover;
-    }
-    header, main, footer {
-        padding: 10px; /* スマホで余白を調整 */
-    }
+/* ベース設定 */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* コンテンツを中央揃え */
 }
-/* レスポンシブデザイン */
-@media (max-width: 768px) {
-    .background-text {
-        font-size: 5rem; /* スマホで文字サイズを小さく */
-        left: 50%; /* 中央寄せ */
-        transform: translate(-50%, -50%); /* 水平・垂直方向に中央配置 */
-    }
+
+.container {
+    max-width: 1200px; /* コンテンツの最大幅 */
+    margin: 0 auto; /* 左右中央に配置 */
+    padding: 20px;
 }
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    pointer-events: none;
+}
+
 
 
     
