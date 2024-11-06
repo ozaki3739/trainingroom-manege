@@ -332,6 +332,14 @@ body {
         padding: 10px; /* スマホで余白を調整 */
     }
 }
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 5rem; /* スマホで文字サイズを小さく */
+        left: 50%; /* 中央寄せ */
+        transform: translate(-50%, -50%); /* 水平・垂直方向に中央配置 */
+    }
+}
 
     
     
