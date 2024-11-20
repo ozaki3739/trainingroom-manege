@@ -274,22 +274,7 @@ footer p {
         color: #fff;
     }
     
-    a.btn{
-        background: #00A2FF;
-        transition-property: background;
-        transition-duration: 0.3s;
-        transition-timing-function: ease;
-        transition-delay: 0.1s;
-    }
-    
-    a.btn:hover{
-        background: #FF9300;
-        transition-property: background;
-        transition-duration: 0.3s;
-        transition-timing-function: ease;
-        transition-delay: 0.1s;
-    }
-    /* 背景に画像を設定 */
+   
 body {
     background-image: url(); /* 背景画像を指定 */
     background-size: cover; /* 画面全体に表示 */
@@ -382,24 +367,51 @@ body {
     background-color: red;
     margin: 0 auto;
 }
-p{
-    background-color: black;
-    color: white;
+/* ベース設定 */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden; /* 横スクロールを防止 */
 }
 
-@media screen and (max-width: 768px) {
-    p{
-        background-color: black;
-         color:green;
-     }
- }
+.container {
+    max-width: 1200px; /* コンテンツの最大幅 */
+    margin: 0 auto; /* 左右中央に配置 */
+    padding: 20px;
+}
+
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+    color: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+    pointer-events: none;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 5rem; /* 小さい画面用に文字サイズを調整 */
+    }
+
+    .container {
+        padding: 10px; /* スマホ用に余白を調整 */
+    }
+}
+
+@media (max-width: 480px) {
+    .background-text {
+        font-size: 3rem; /* さらに小さい画面用に文字サイズを調整 */
+    }
+}
+
+
  
- @media screen and (max-width: 480px) {
-    p{
-        background-color: black;
-         color:red;
-     }
- }
+
 
     
     
