@@ -391,6 +391,15 @@ body {
 .external-link .button:hover {
     background-color: #0056b3; /* ホバー時の色変更 */
 }
+/* 外部リンクボタンのスタイル */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right; /* ボタンを右揃え（必要なら変更） */
+}
+
+
 
 
  
