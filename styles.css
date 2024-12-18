@@ -10,11 +10,13 @@ body {
 /* ヘッダー */
 header {
     background-color: #4CAF50; /* 鮮やかな緑色 */
-    color: black;
+    color: white;
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+.
 
 header h1 {
     margin: 0;
